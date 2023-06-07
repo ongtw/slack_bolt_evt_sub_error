@@ -11,6 +11,7 @@ Terminal Windows showing Code, `ngrok` and runtime output:
 ![Terminal Windows Content](./terminal_windows.jpg)
 
 The `ngrok` window shows `401 Unauthorized` error. Either:
-1.  The Slack API website is not sending the correct credentials.<br>
+1.  The Slack API website instructions are outdated.
+2.  The Slack API website is not sending the correct credentials.<br>
 (the value for `SLACK_SECRET` in the code is copied from the API website)
-2.  The Bolt `App` is not handling the `slack/events` call correctly.
+3.  The Bolt `App` is not handling the `slack/events` call correctly.
